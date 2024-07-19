@@ -1,3 +1,15 @@
-h1 {
-    color: red;
+header {
+    font-color: orange;
+    min-width: 100%;
+}
+main {
+    background-color: gray;
+    min-height: 50vh;
+    border: 2mm;
+    border-color: black;
+}
+
+footer {
+    background-color: black;
+    min-height: 20%;
 }
