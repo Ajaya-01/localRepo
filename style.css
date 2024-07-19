@@ -1,15 +1,114 @@
+html, body {
+    box-sizing: border-box;
+    margin: 0%;
+    background-color: black;
+}
+
 header {
-    font-color: orange;
-    min-width: 100%;
+    box-sizing: border-box;
+    padding: 2%;
+    color: orange;
+    text-align: center;
+    margin: 0%;
+    min-height: max-content;
+    background-color: rgb(7, 101, 160);
+
 }
 main {
-    background-color: gray;
-    min-height: 50vh;
-    border: 2mm;
-    border-color: black;
+    box-sizing: border-box;
+    padding-block-start: 0%;
+    padding-block-end: 0%;
+    background-color: lightskyblue;
+    min-height: max-content;
+    border: 1px solid red;
+    border-color: lightskyblue;
+}
+
+nav {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.menu > ul > li {
+    box-sizing: border-box;
+    padding: 1% 2%;
+    list-style-type: none;
+    display: inline-block;
+    gap: 10%;
+    border: 2px solid gray;
+}
+
+.menu > ul > li > a {
+    box-sizing: border-box;
+    text-decoration-line: none;
+    text-transform: uppercase;
+
+}
+
+h1 {
+    box-sizing: content-box;
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-bottom: 5px solid orange;
+    border-right: 5px solid orange;
+    background-color: rgba(0, 255, 255, 0.425);
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
+    
+}
+
+.menu {
+    box-sizing: border-box;
+    background-color: lightskyblue;
+    min-height: max-content;
+    border: 1px solid red;
+    border-color: lightskyblue;
+}
+
+label {
+    padding-right: 20px;
+    font-size: 1rem;
+  }
+
+article {
+    box-sizing: border-box;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    background-color: lightblue;
+
+}
+
+
+aside {
+    box-sizing: border-box;
+    background-color: green;
+    min-height: max-content;
+    width: 40%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: right;
+    font-style: italic;
+    color: gold;
+
 }
 
 footer {
-    background-color: black;
-    min-height: 20%;
+    box-sizing: border-box;
+    padding: 2%;
+    margin: 0%;
+    background-color: gray;
+    min-height: max-content;
+    border: 1px dashed gray;
+    color: black;
+}
+
+address {
+    box-sizing: border-box;
+    text-align: left;
+    margin: 10px;
+    
 }
